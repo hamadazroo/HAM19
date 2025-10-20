@@ -1,0 +1,39 @@
+# ========================================
+# أوامر رفع المشروع على GitHub
+# HAM19 Video Downloader
+# ========================================
+
+# 1. إعداد Git في المشروع
+git init
+
+# 2. إضافة جميع الملفات
+git add .
+
+# 3. عمل Commit أول
+git commit -m "Initial commit: HAM19 Video Downloader v1.0"
+
+# 4. تسمية الفرع الرئيسي
+git branch -M main
+
+# 5. ربط المشروع بـ GitHub
+# ⚠️ استبدل YOUR_USERNAME باسم المستخدم الخاص بك على GitHub
+git remote add origin https://github.com/YOUR_USERNAME/video-downloader.git
+
+# 6. رفع المشروع
+git push -u origin main
+
+# ========================================
+# بعد الرفع - خطوات اختيارية
+# ========================================
+
+# لإضافة تحديثات مستقبلية:
+git add .
+git commit -m "وصف التحديث"
+git push
+
+# ========================================
+# ملاحظات مهمة:
+# ========================================
+# - استبدل YOUR_USERNAME باسمك الحقيقي على GitHub
+# - إذا طلب username/password، استخدم Personal Access Token
+# - لإنشاء Token: GitHub → Settings → Developer settings → Personal access tokens
